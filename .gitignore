@@ -27,3 +27,4 @@ yarn-error.log*
 tests_output
 
 example/src/consts.js
+node_modules
