@@ -15,7 +15,8 @@ import { Tabs, Tab, TabPanel } from "./components/tabs/tabs";
 import { FaCopy, FaWallet, FaUserShield, FaSearchDollar } from 'react-icons/fa';
 
 import logoImg from "./assets/img/logos/logo.svg";
-import lotteryBanner from "./assets/lottery_banner.gif";
+// import lotteryBanner from "./assets/lottery_banner.gif";
+import lotteryBanner from "./assets/banner.png";
 
 import {
     Button,
@@ -566,14 +567,14 @@ function WealthMountain() {
     return (
         <>
             <Container className="custom-header">
-                <Card className="px-5 py-2">
+                {/* <Card className="px-5 py-2">
                     <img
                         alt="..."
                         src={logoImg}
                         style={{ width: 'auto', height: '36px' }}
                     />
                 </Card>
-                
+                 */}
                 <Button
                     className='custom-button'
                     style={{maxHeight: "43px"}}
@@ -582,15 +583,16 @@ function WealthMountain() {
                 </Button>
             </Container>
             <Container>
-                <Button
+                {/* <Button
                     style={{background: 'transparent', border: 'none'}} 
-                    onClick={()=>setActiveTab(2)}>
-                    <img
+                    onClick={()=>setActiveTab(2)}> */}
+                    {/* <img
                         alt="..."
                         src={lotteryBanner}
-                        style={{ width: '100%', marginTop: '10px', border: '1px solid rgb(66 45 14)', borderRadius: '10px'}}
-                    />
-                </Button>
+                        onClick={()=>setActiveTab(2)}
+                        style={{ width: '100%', marginTop: '10px', border: '1px solid rgb(66 45 14)', borderRadius: '10px', cursor: 'pointer'}}
+                    /> */}
+                {/* </Button> */}
             </Container>
             {/* <Container>
                 {countdown.alive && 
@@ -1033,14 +1035,14 @@ function WealthMountain() {
                 <Container className="pt-5 text-center calvino text-lightblue">
                     <Card body className="mb-3 p-1">
                         <CardDeck className="custom-footer">
-                            <a href="https://paycheck-org.gitbook.io/busd-automine/" target="_blank" rel="noreferrer"> DOCS </a>
-                            <a href="#" target="_blank" rel="noreferrer"> TWITTER </a>
-                            <a href="#" target="_blank" rel="noreferrer"> FACEBOOK </a>
-                            <a href="#" target="_blank" rel="noreferrer"> TELEGRAM </a>
-                            <a href="#" target="_blank" rel="noreferrer"> YOUTUBE </a>
-                            <a href="#" target="_blank" rel="noreferrer"> INSTAGRAM </a>
-                            <a href="https://bscscan.com/address/0x73634D388dAD52eC1BB9C61A41934c269D11f338" target="_blank" rel="noreferrer"> CONTRACT </a>
-                            <a href="/BUSDAutoMine.pdf" target="_blank" rel="noreferrer"> AUDIT </a>
+                            <a href="#"  rel="noreferrer"> DOCS </a>
+                            <a href="#"  rel="noreferrer"> TWITTER </a>
+                            <a href="#"  rel="noreferrer"> FACEBOOK </a>
+                            <a href="#"  rel="noreferrer"> TELEGRAM </a>
+                            <a href="#"  rel="noreferrer"> YOUTUBE </a>
+                            <a href="#"  rel="noreferrer"> INSTAGRAM </a>
+                            <a href="#"  rel="noreferrer"> CONTRACT </a>
+                            <a href="#"  rel="noreferrer"> AUDIT </a>
                         </CardDeck>
                     </Card>
                     <p style={{fontSize: '14px'}}>COPYRIGHT © 2022 ALL RIGHTS RESERVED</p>

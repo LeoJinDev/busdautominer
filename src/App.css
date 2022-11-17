@@ -17204,7 +17204,8 @@ td.rdtYear:hover {
 @media (min-width: 576px) {
   .custom-header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
