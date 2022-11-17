@@ -15,8 +15,7 @@ import { Tabs, Tab, TabPanel } from "./components/tabs/tabs";
 import { FaCopy, FaWallet, FaUserShield, FaSearchDollar } from 'react-icons/fa';
 
 import logoImg from "./assets/img/logos/logo.svg";
-// import lotteryBanner from "./assets/lottery_banner.gif";
-import lotteryBanner from "./assets/banner.png";
+import lotteryBanner from "./assets/lottery_banner.gif";
 
 import {
     Button,
